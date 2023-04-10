@@ -27,7 +27,7 @@ RUN \
         autoconf \
         automake \
         cargo \
-        libffi \
+        libffi openssl-dev \
     && apk add --no-cache --virtual .build-dependencies \
         libffi-dev \
     && if [ "${BUILD_ARCH}" = "i386" ]; then \
