@@ -16,7 +16,7 @@ COPY \
     /usr/src/
 RUN \
     set -x \
-    && apk add --no-cache \
+    && apk add -vv --no-cache \
         rsync \
         openssh-client \
         patchelf \
