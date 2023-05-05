@@ -10,7 +10,7 @@ on:
 jobs:
   publish:
     name: Publish builder
-    runs-on: [ metal ]
+    runs-on: [ self-hosted ]
     strategy:
       fail-fast: False
       matrix:
